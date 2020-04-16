@@ -46,7 +46,7 @@ MODULE_PARM_DESC(record_size,
 		"size of each dump done on oops/panic");
 
 #if (defined CONFIG_MACH_XIAOMI_MIDO) || (defined CONFIG_MACH_XIAOMI_TISSOT)
-static ulong ramoops_console_size = 512*1024UL;
+static ulong ramoops_console_size = 5120*1024UL;
 #else
 static ulong ramoops_console_size = MIN_MEM_SIZE;
 #endif
