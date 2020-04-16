@@ -4,7 +4,7 @@ cd /
 
 #Fetch sources
 
-git clone --depth 1 https://github.com/offset1313/mido-4.9 wahoo
+git clone --depth 1 https://github.com/offset1313/mido-4.9  -b test wahoo
 git clone --depth 1 https://github.com/kdrag0n/proton-clang.git pclang
 git clone --depth 1 git://github.com/CurioussX13/AnyKernel3 -b mido ak3
 
