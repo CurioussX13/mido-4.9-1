@@ -14,7 +14,7 @@ jobs:
 
           command: |
 
-           apt -y update && apt -y install bc build-essential zip curl git wget python
+           apt -y update && apt -y install bc build-essential zip curl git wget python libssl-dev
 
            wget -O build.sh https://raw.githubusercontent.com/offset1313/mido-4.9/clang/.circleci/build.sh
 
